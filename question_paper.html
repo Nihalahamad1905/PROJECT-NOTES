@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Project Notes</title>
+  <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap"
+  rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/x-icon" href="logo.png">
+</head>
+<body>
+  <section class="on-header">
+    <nav>
+      <a href="home2.html"><img src="nimages/logo2.png" style="padding-top: 5px; width: 100px; height: 100px"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index/index.html">HOME</a></li>
+        <li><a href="note.html">NOTES</a></li>
+            <li><a href="question_paper.html">QUESTION PAPER</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+      
+      <!-- -------java script----------- -->
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+</script>
+  <h1>QUESTION PAPER</h1>
+</div>
+</section>
+  <style>
+    *{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.on-header{
+  height: 30vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,07),rgba(4,9,30,0.5)),url(nimages/cover/lbg2.png);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+.course{
+  margin: auto;
+  text-align: center;
+  padding-top: 0px;
+}
+
+
+.row{
+  margin-left: 0px;
+  margin-right : 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.colum-col{
+  flex-basis: 31%;
+  background: #000000;
+  border-radius: 30px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+.about-col a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+  
+}
+
+h1{
+font-family : vani;
+  text-align: center;
+  font-size: 50px;
+  font-weight : 600;
+  margin: 0px 0; 
+  padding-top: 0px;
+}
+
+
+.about-col img:hover{
+    color: #111; 
+    background: #000000; 
+    box-shadow: 0px 0px 20px #000000; 
+    }
+	
+	.about-col img{
+	border-radius: 20px; 
+	width: 300px; 
+	height: 300px;
+	}
+	
+  </style>
+</head>
+
+<body>
+  <section class="course">
+  
+    <div class ="row">
+    <div class="about-col ">
+    
+    <a href="question_papers/ca_question.html"><img src="bookcover/ca.jpg" ></a><br>
+  
+       
+      </div>
+       <div class="about-col">
+    
+  <a href="question_papers/cgm_question.html"><img src="bookcover/cgm.jpg" ></a><br>
+ 
+  
+      </div>
+      <div class="about-col">
+        
+  <a href="question_papers/is_question.html"><img src="bookcover/is.jpg" ></a><br>
+  
+  
+      </div>
+    </div>
+    
+    <div class="row">
+    <div class="about-col">
+        
+  <a href="question_papers/oomd_question.html"><img src="bookcover/oomd.jpg" ></a><br>
+  
+       
+      </div>
+       <div class="about-col">
+   
+  <a href="question_papers/sp_question.html"><img src="bookcover/sp.jpg" ></a><br>
+ 
+     
+      </div>
+      <div class="about-col">
+      
+  <a href="question_papers/js_question.html"><img src="bookcover/js.jpg" ></a><br>
+  
+  
+      </div>
+    </div>
+    
+    </section>
+      
+
+        <!-- Modal -->
+
+
+   
+   
+
+
+</body>
+</html>
