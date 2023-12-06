@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Notes</title>
+  <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap"
+  rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/x-icon" href="../logo.png">
+</head>
+<body style="background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+">
+ 
+  <section class="sub-header">
+    <nav>
+      <a href="home2.html"><img src="logo.png" style="padding-top: 5px; width: 100px; height: 100px"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="../index/index.html">HOME</a></li>
+          <li><a href="../note.html">NOTES </a></li>
+          <li><a href="../question_paper.html">QUESTION PAPER</a></li>
+          <li><a href="../contact.html">CONTACT</a></li>
+          
+          </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+      
+      <!-- -------java script----------- -->
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+</script>
+   
+
+  
+<section class="course">
+  
+   <br>
+    <div class="row">
+      <div class="course-col">
+        <a href="../Upload/CA Unit 1.pdf">UNIT 1</a>      
+      </div>
+      <div class="course-col">
+        <a href="../Upload/CA Unit 2.pdf">UNIT 2</a>        
+      </div>
+      <div class="course-col">
+        <a href="../Upload/CA Unit 3.pdf">UNIT 3</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="course-col">
+        <a href="../Upload/CA Unit 4.pdf">UNIT 4</a>        
+      </div>
+      <div class="course-col">
+        <a href="../Upload/CA Unit 5.pdf">UNIT 5</a>      
+      </div>
+      <div class="course-col">
+        <a href="../Upload/CA Unit 6.pdf">UNIT 6</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="course-col">
+        <a href="../Upload/CA Ref 1.pdf">Reference Book 1</a>        
+      </div>
+      <div class="course-col">
+        <a href="../Upload/soon.pdf">Reference Book 2</a>      
+      </div>
+      <div class="course-col">
+        <a href="../Upload/soon.pdf">Reference Book 3</a>
+      </div>
+    </div>
+ 
+   
+
+
+    </section></section>
+    <style>
+
+    .sub-header{
+  height: 25vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,05),rgba(4,9,30,0.2)),url(banner/ca.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+        
+    .course{
+  width: 80%;
+text-align: center;
+ margin: auto;
+ margin-top: 100px;
+ padding: 20px;
+}
+
+
+.row{
+  margin: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.course-col{
+  flex-basis: 31%;
+  background: #000000;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 25px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+.course-col a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+
+.course-col:hover{
+  box-shadow: 0 0 20px 0px rgba(4,9,30,0.7);
+    }
+
+    .row{
+        
+        margin-right: 0px;
+        margin-left: 0px;
+    }  
+   
+}    
+    </style>
+    </body></html>
+   
+
