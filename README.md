@@ -1,6 +1,7 @@
 
 <h1>Project Notes: Your Free Gateway to Academic Success</h1>
-![banner](https://github.com/Nihalahamad1905/Project_Notes/assets/118530992/8ecf79a0-abfd-4e4c-8732-de27f5a6a551);
+
+![banner](https://github.com/Nihalahamad1905/Project_Notes/assets/118530992/8ecf79a0-abfd-4e4c-8732-de27f5a6a551)
 
 
 <p>Struggling to find study resources? Drowning in a sea of textbooks and lecture notes? Project Notes is here to be your life raft! No matter your university or subject, Project Notes is your one-stop shop for all things academic, offering a treasure trove of free resources to fuel your studying.</p>
