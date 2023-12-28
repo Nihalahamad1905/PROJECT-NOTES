@@ -38,6 +38,10 @@
             </li>
         </ul>
 
+<h2>User Login Guidelines</h2>
+<P>Username : Admin1@gmail.com</P>
+<P>Passsward : Admin1</P>
+
 
 
   
